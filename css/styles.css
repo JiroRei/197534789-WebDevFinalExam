@@ -29,6 +29,14 @@
 }
 .content h1{
   color: rgb(238, 255, 0);
+  margin-bottom: 5px;
+}
+a:link {
+  text-decoration: underline;
+  color: aliceblue;
+}
+a:hover {
+  text-decoration: none;
 }
 .content p{
   color: aliceblue;
