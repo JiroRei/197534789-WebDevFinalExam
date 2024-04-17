@@ -1,0 +1,47 @@
+.site{
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+}
+
+.navbar{
+  display: flex;
+  justify-content: flex-end;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: blueviolet;
+  border: solid;
+
+}
+.navbar ul li{ 
+  margin: 10px;
+  list-style: none;
+  background-color: rgb(194, 150, 236);
+  font-size: large;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(33, 33, 108);
+  border: solid;
+}
+.content h1{
+  color: rgb(238, 255, 0);
+}
+.content p{
+  color: aliceblue;
+}
+.content img{
+  border: 1px solid;
+  width: 500px;
+}
+.footer {
+  display: flex;
+  flex-flow: column wrap;
+  border: solid;
+}
+.footer h3{
+  background-color: rgb(169, 215, 255);
+}
